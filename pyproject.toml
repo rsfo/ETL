@@ -5,11 +5,17 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "logfire[requests,sqlalchemy]>=3.5.3",
+    "fastapi>=0.115.8",
+    "flask>=3.1.0",
+    "logfire[fastapi,requests,sqlalchemy]>=3.5.3",
+    "opentelemetry-instrumentation-asgi>=0.51b0",
     "psycopg2>=2.9.10",
     "psycopg2-binary>=2.9.10",
+    "pydantic>=2.10.6",
     "python-dotenv>=1.0.1",
     "requests>=2.32.3",
     "sqlalchemy>=2.0.38",
+    "streamlit>=1.42.0",
     "tinydb>=4.8.2",
+    "uvicorn>=0.34.0",
 ]
