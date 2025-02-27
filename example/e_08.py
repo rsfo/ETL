@@ -11,4 +11,4 @@ logfire.configure(token=LOGFIRE_TOKEN)
 logfire.info('Hello, {name}!', name='World')
 
 if __name__ == "__main__": 
-     pass
+    pass
